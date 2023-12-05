@@ -12,3 +12,10 @@
 .grid_container div:hover .hover-effect {
     background: red; /* Change this to the color you want on hover */
 }
+
+.btn {
+    display: block;
+    margin: auto; 
+    padding: 10px; 
+    margin-bottom: 10px;
+}
