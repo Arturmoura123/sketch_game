@@ -1,0 +1,14 @@
+.grid_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid_container div{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #000;
+}
+
+.grid_container div:hover .hover-effect {
+    background: red; /* Change this to the color you want on hover */
+}
